@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #f1f3f6; */
+    background-color: #f0f5ff;
+}
+/* header */
+header {
+    position: sticky;
+    /* position: fixed; */
+
+    top: 0;
+    justify-content: space-between;
+    padding: 12px 28px;
+    box-sizing: border-box;
+    max-width: 1600px;
+    height: 67px;
+    background-color: #fff;
+}
+header .logo {
+    margin: 8px;
+}
+header .nav-container {
+    display: flex;
+    align-items: center;
+    max-width: 1248px;
+
+}
+
+header .search-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    /* background-color: #1853ca; */
+    margin-bottom: 18px;
+
+background-color: #f0f5ff;
+}
+
+header .search-container .search {
+    height: 100%;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    border-radius: 4px;
+    background-color: #f0f5ff;
+
+}
+header .search-container .search input {
+    width: 50%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background-color: #f0f5ff;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 4px;
+
+}
+header .search-container .search svg {
+    padding: 0 8px;
+    width: 36px;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f0f5ff;
+}
+header .login {
+    display: flex;
+
+    height: 100%;
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    /* justify-content: center; */
+}
+header .login-container {
+    padding: 0 20px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+
+}
+.login-container img {
+    margin-left: 8px;
+}
+.login span {
+    margin-left: 8px;
+}
+.login-container:hover {
+    background-color: #2a55e5;
+    border-radius: 5px;
+
+}
+header .cart {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cart span {
+    margin-left: 8px;
+}
+header .become-a-seller {
+    margin: 0 20px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.become-a-seller span {
+    width: 100%;
+    margin: 0 20px;
+    text-align: center;
+    justify-content: center;
+}
+header .extra {
+    margin: 0 20px;
+}
+
+/* section 1 */
+.section-1 {
+    width: 100%;
+    height: 122px;
+    background-color: white;
+    margin-top: 8px;
+    
+    }
+.section-1-container{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.section-1-item{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family:  Arial, sans-serif;
+}
+.section-1-item img{
+    width: 64px;
+    height: 64px;
+}
+.section-2-container{
+    margin-top: 16px;
+    height: 265px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/11cd504bbc3a1493.jpg?q=20');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-3{
+    margin: 2% 0%;
+    background-color: #ffffff;
+}
+.section-3-container{
+    display: flex;
+    align-items: center;
+  width: 118%;
+
+    height: 100%;
+    margin: 0 auto;
+    /* overflow:hidden; */
+    justify-content: space-between;
+}
+.section-3-item{
+   min-height: 30%;
+   max-height: 40%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 14px;
+
+    font-weight: 500;
+    margin:  2% 1%;
+    border: 1px solid rgb(238, 232, 232);
+    background-color: #f0f5ff;
+   
+        
+
+}
+.section-3-item img{
+    width: 100%;
+    height: 100%;
+
+}
+.section-3-container .flights{
+    width: 100%;
+    height: 100%;
+    margin-left: 16px;
+}
+.section-3-container .flights img{
+    height: 30%;
+    width: 50%;
+}
+.section-3 span{
+    font-size:large;
+    font-weight: 600;
+    margin: 2%;
+ 
+}
+.section-3-container h2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    font-weight: 500;
+    gap: 5%;
+}
+.section-3-item h2:nth-child(3){
+    font-size: larger;
+    font-weight: 600;
+}
